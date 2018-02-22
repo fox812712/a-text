@@ -1,0 +1,13 @@
+#include<iostream>
+slot_singlas
+
+int main(){
+
+std::fstream fdf;
+fdf.open("fsjkf.txt",std::ios_base::out|
+std::ios_base::binary);
+if(fdf.good()){
+fdf.close();
+}
+
+}
